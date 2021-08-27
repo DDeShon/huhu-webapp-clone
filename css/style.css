@@ -89,6 +89,17 @@ h4 {
   text-decoration: underline;
 }
 
+.text-xl {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.sub-text {
+  max-width: 850px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
 /* Header */
 .header {
   height: 680px;
@@ -156,6 +167,29 @@ h4 {
 
 .sub-header > div:last-of-type .sub-link {
   text-align: center;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 90px 40px;
+  justify-content: center;
+}
+
+.categories .covers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.categories .covers > div {
+  height: 500px;
+  width: 300px;
+  position: relative;
 }
 
 /* Media Queries */
