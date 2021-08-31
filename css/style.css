@@ -334,7 +334,7 @@ h4 {
     grid-template-columns: 1fr;
   }
 
-  .live-border {
+  .live-tv .live-border {
     padding: 30px 10px;
   }
 }
