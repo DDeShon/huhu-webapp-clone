@@ -320,6 +320,11 @@ h4 {
   text-transform: none;
 }
 
+/* Footer */
+.footer {
+  background-color: #ebedf2;
+}
+
 /* Media Queries */
 @media (max-width: 1024px) {
   .categories .covers {
