@@ -323,6 +323,11 @@ h4 {
 /* Footer */
 .footer {
   background-color: #ebedf2;
+  color: black;
+}
+
+.footer a {
+  color: #656b7b;
 }
 
 /* Media Queries */
