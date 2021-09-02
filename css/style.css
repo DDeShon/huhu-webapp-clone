@@ -387,6 +387,17 @@ h4 {
   background: white;
   color: #333;
   position: relative;
+  animation: modalopen 1s;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .modal-body {
