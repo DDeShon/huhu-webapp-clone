@@ -322,12 +322,29 @@ h4 {
 
 /* Footer */
 .footer {
-  background-color: #ebedf2;
-  color: black;
+  background: #ebedf2;
+  color: #000000;
 }
 
 .footer a {
   color: #656b7b;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px;
+}
+
+.footer-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-lists .list-head {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 /* Media Queries */
