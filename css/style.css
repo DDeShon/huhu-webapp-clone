@@ -330,6 +330,47 @@ h4 {
   color: #656b7b;
 }
 
+.footer .browse-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin: 0 30px;
+}
+
+.footer .browse-list-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .browse-list-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .browse-list-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .browse-list-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .help-list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  margin: 0 30px;
+}
+
+.footer .about-list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  margin: 0 30px;
+}
+
 /* Media Queries */
 @media (max-width: 1024px) {
   .categories .covers {
